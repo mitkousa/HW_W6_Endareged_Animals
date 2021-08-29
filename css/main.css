@@ -1,0 +1,44 @@
+body {
+    background: url('/css/images/Animals.jpeg');
+    background-size:cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: cornsilk;
+    margin-left: 40px;
+    font-weight: bold;
+  }
+  
+  #form-wrapper {
+    width: 100%;
+    display:inline-block
+  }
+  
+  .form-item {
+    margin-right: 1.8rem;
+  }
+  
+  label.primary {
+    display: block;
+    margin: 0.4em 0;
+  }
+  
+  label::after {
+    content: ":";
+  }
+  
+  button, input[type="submit"] {
+    margin-top: 1rem;
+  }
+  
+  #endangered-animals {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+  }
+  
+  .endangered-animals-item {
+    margin: 0.5rem 0.5rem;
+    padding: 0.5rem 0.8rem;
+    border: 1px solid #20437c;
+    border-radius: 5%;
+    background: #59fa38;
+  }
